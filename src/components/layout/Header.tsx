@@ -28,7 +28,7 @@ const Header = ({ isScrolled }: HeaderProps) => {
             <CarFront size={32} />
           </span>
           <span className="ml-2 text-2xl font-bold text-[#333333]">
-            SR <span className="text-[#0A66C2]">Automotives</span>
+            SR <span className="text-white">Automotives</span>
           </span>
         </NavLink>
         
