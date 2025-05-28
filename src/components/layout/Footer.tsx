@@ -58,15 +58,15 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <MapPin className="mr-3 mt-1 flex-shrink-0" size={18} />
-                <span>123 Automotive Lane, Engine City, EC 12345</span>
+                <span>Kataram ,Kaleshwaram Road, telangana City, EC </span>
               </li>
               <li className="flex items-center">
                 <Phone className="mr-3 flex-shrink-0" size={18} />
-                <a href="tel:+1234567890" className="hover:text-[#FF4C29] transition-colors">+1 (234) 567-890</a>
+                <a href="tel:+1234567890" className="hover:text-[#FF4C29] transition-colors">+(91)79953-60259</a>
               </li>
               <li className="flex items-center">
                 <Mail className="mr-3 flex-shrink-0" size={18} />
-                <a href="mailto:info@srautomotives.com" className="hover:text-[#FF4C29] transition-colors">info@srautomotives.com</a>
+                <a href="mailto:info@srautomotives.com" className="hover:text-[#FF4C29] transition-colors">dm2grow@gmail.com</a>
               </li>
               <li className="flex items-start">
                 <Clock className="mr-3 mt-1 flex-shrink-0" size={18} />

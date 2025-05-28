@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { CarFront, Menu, X } from 'lucide-react';
+import logo from "./logo.png";
 
 interface HeaderProps {
   isScrolled: boolean;
@@ -24,13 +25,25 @@ const Header = ({ isScrolled }: HeaderProps) => {
       <div className="container flex items-center justify-between">
         {/* Logo */}
         <NavLink to="/" className="flex items-center">
-          <span className="text-[#0A66C2]">
-            <CarFront size={32} />
-          </span>
-          <span className="ml-2 text-2xl font-bold text-red-600">
-            SR <span className="text-red-600">Automotives</span>
-          </span>
-        </NavLink>
+      <img
+        src={logo}
+        alt="SR Automotives Logo"
+        className="h-12 w-auto"
+      />
+    </NavLink>
+
+  {/* 
+<NavLink to="/" className="flex items-center">
+  <span className="text-[#0A66C2]">
+    <CarFront size={32} />
+  </span>
+  <span className="ml-2 text-2xl font-bold text-red-600">
+    SR <span className="text-red-600">Automotives</span>
+  </span>
+</NavLink> 
+*/}
+
+
         
         {/* Desktop Navigation */}
         <nav className="hidden md:block">

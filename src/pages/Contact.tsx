@@ -37,8 +37,8 @@ const Contact = () => {
                 <div>
                   <h3 className="font-bold mb-1">Our Location</h3>
                   <p className="text-[#666666]">
-                    123 Automotive Lane<br />
-                    Engine City, EC 12345
+                    2-32 Kataram ,Kaleshwaram Road<br />
+                    Telangana city
                   </p>
                 </div>
               </div>
@@ -54,7 +54,7 @@ const Contact = () => {
                       href="tel:+1234567890" 
                       className="text-[#666666] hover:text-[#0A66C2] transition-colors"
                     >
-                      +1 (234) 567-890
+                      +(91) 79953-60259
                     </a>
                   </p>
                 </div>
@@ -71,7 +71,7 @@ const Contact = () => {
                       href="mailto:info@srautomotives.com" 
                       className="text-[#666666] hover:text-[#0A66C2] transition-colors"
                     >
-                      info@srautomotives.com
+                      dm2grow@gmail.com
                     </a>
                   </p>
                 </div>
@@ -95,7 +95,7 @@ const Contact = () => {
             {/* Map */}
             <div className="aspect-video bg-gray-200 rounded-lg overflow-hidden reveal">
               <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.2219901290355!2d-74.00369368400567!3d40.71312937933185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a23e28c1191%3A0x49f75d3281df052a!2s123%20Street%2C%20New%20York%2C%20NY%2010001%2C%20USA!5e0!3m2!1sen!2sus!4v1652814770225!5m2!1sen!2sus" 
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d120979.98432689936!2d80.00872855!3d18.63595135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1748427694458!5m2!1sen!2sin" 
                 style={{ border: 0, width: '100%', height: '100%' }} 
                 allowFullScreen={false} 
                 loading="lazy" 
