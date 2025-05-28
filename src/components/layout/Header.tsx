@@ -24,16 +24,11 @@ const Header = ({ isScrolled }: HeaderProps) => {
       <div className="container flex items-center justify-between">
         {/* Logo */}
         <NavLink to="/" className="flex items-center">
-          <span className="text-red-600">
+          <span className="text-[#0A66C2]">
             <CarFront size={32} />
           </span>
-<<<<<<< HEAD
-          <span className="ml-2 text-2xl font-bold text-yellow">
-            SR <span className="text-yellow">Automotives</span>
-=======
           <span className="ml-2 text-2xl font-bold text-red-600">
-            SR <span className="text-[#0A66C2]">Automotives</span>
->>>>>>> 145de1d (Added sitemap.xml, robots.txt, and Google site verification meta tag)
+            SR <span className="text-red-600">Automotives</span>
           </span>
         </NavLink>
         
