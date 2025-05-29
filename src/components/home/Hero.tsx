@@ -22,8 +22,8 @@ const Hero = () => {
       <div className="container relative z-10 text-white">
         <div className="max-w-3xl">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-            Driving Quality.<br />
-            <span className="text-[#FF4C29]">Delivering Trust.</span>
+            Driven By Technology.<br />
+            <span className="text-[#FF4C29]">Fueled By Trust.</span>
           </h1>
           
           <p className="text-lg md:text-xl mb-8 text-gray-200 max-w-2xl">

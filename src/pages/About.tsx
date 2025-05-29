@@ -135,10 +135,10 @@ const About = () => {
               className="w-full h-64 object-cover"
             />
             <div className="p-6">
-              <h3 className="text-xl font-bold mb-1">Samuel Rodriguez</h3>
+              <h3 className="text-xl font-bold mb-1">Solmon Raj</h3>
               <p className="text-[#0A66C2] font-medium mb-3">Founder & Lead Technician</p>
               <p className="text-[#666666]">
-                With over 20 years of experience, Samuel leads our team with expertise in luxury vehicle diagnostics and performance optimization.
+                With over 2 years of experience, Solmon leads our team with expertise in luxury vehicle diagnostics and performance optimization.
               </p>
             </div>
           </div>
@@ -151,14 +151,54 @@ const About = () => {
               className="w-full h-64 object-cover"
             />
             <div className="p-6">
-              <h3 className="text-xl font-bold mb-1">Maria Chen</h3>
+              <h3 className="text-xl font-bold mb-1">Chandu Miryala</h3>
+              <p className="text-[#0A66C2] font-medium mb-3">Co-founder & Service Manager</p>
+              <p className="text-[#666666]">
+                Miryala ensures seamless operations and exceptional customer service, bringing 3 years of automotive management experience.
+              </p>
+            </div>
+          </div>
+          
+
+{/* Team Member 2 */}
+          <div className="card overflow-hidden reveal">
+            <img
+              src="https://images.pexels.com/photos/8962434/pexels-photo-8962434.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              alt="Maria Chen"
+              className="w-full h-64 object-cover"
+            />
+            <div className="p-6">
+              <h3 className="text-xl font-bold mb-1">Keval Advaith</h3>
+              <p className="text-[#0A66C2] font-medium mb-3">Assistaant Service Manager</p>
+              <p className="text-[#666666]">
+                Maria ensures seamless operations and exceptional customer service, bringing 12 years of automotive management experience.
+              </p>
+            </div>
+          </div>
+
+
+{/* Team Member 2 */}
+          <div className="card overflow-hidden reveal">
+            <img
+              src="https://images.pexels.com/photos/8962434/pexels-photo-8962434.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              alt="Maria Chen"
+              className="w-full h-64 object-cover"
+            />
+            <div className="p-6">
+              <h3 className="text-xl font-bold mb-1">Anudeep Aryan</h3>
               <p className="text-[#0A66C2] font-medium mb-3">Service Manager</p>
               <p className="text-[#666666]">
                 Maria ensures seamless operations and exceptional customer service, bringing 12 years of automotive management experience.
               </p>
             </div>
           </div>
-          
+
+
+
+
+
+
+
           {/* Team Member 3 */}
           <div className="card overflow-hidden reveal">
             <img
@@ -167,7 +207,7 @@ const About = () => {
               className="w-full h-64 object-cover"
             />
             <div className="p-6">
-              <h3 className="text-xl font-bold mb-1">David Kim</h3>
+              <h3 className="text-xl font-bold mb-1">Rajender Burra</h3>
               <p className="text-[#0A66C2] font-medium mb-3">Master Technician</p>
               <p className="text-[#666666]">
                 David specializes in advanced diagnostics and electrical systems, with certifications from multiple premium automotive brands.

@@ -8,46 +8,49 @@ const FeaturedTestimonials = () => {
   const testimonials = [
     {
       id: 1,
-      name: 'James Wilson',
-      role: 'BMW Owner',
-      content: 'SR Automotives has been servicing my BMW for over 3 years. Their attention to detail and technical expertise is unmatched. I wouldn\'t trust my car to anyone else.',
+      name: 'Solomon',
+      role: 'Small Business Owner',
+      content: 'SR Automotives has been servicing my Vehcles for over 3 years. Their attention to detail and technical expertise is unmatched. I wouldn\'t trust my car to anyone else.',
       rating: 5
     },
     {
       id: 2,
-      name: 'Sarah Johnson',
+      name: 'Sainath Reddy',
       role: 'Fleet Manager',
       content: 'Managing a fleet of 15 vehicles is challenging, but SR Automotives makes it seamless. Their preventive maintenance program has significantly reduced our downtime and repair costs.',
       rating: 5
     },
     {
       id: 3,
-      name: 'Michael Brown',
+      name: 'Sandeep | Balu',
       role: 'Performance Enthusiast',
       content: 'The performance upgrades SR Automotives installed on my sports car have transformed the driving experience. Their knowledge of performance tuning is exceptional.',
-      rating: 5
+      rating: 4.5
     },
     {
       id: 4,
-      name: 'Emily Davis',
-      role: 'Honda Owner',
+      name: 'Sathvik Chandra',
+      role: 'Honda Customer',
       content: 'I appreciate the honest and transparent service I always receive. They explain everything clearly and never push unnecessary repairs or services.',
       rating: 4
     },
     {
       id: 5,
-      name: 'Robert Chen',
-      role: 'Mercedes Owner',
-      content: 'Finding quality parts for luxury vehicles can be difficult, but SR Automotives always sources genuine parts quickly. Their service is prompt and professional.',
+      name: 'Mahesh Bantu',
+      role: 'Customer',
+      content: 'Finding quality parts for luxury vehicles can be difficult, but SR Automotives always sources genuine parts quickly.',
       rating: 5
     },
     {
       id: 6,
-      name: 'Lisa Thompson',
-      role: 'Small Business Owner',
+      name: 'Vishnu Nakarakanti',
+      role: 'Customer',
       content: 'As a small business owner, vehicle reliability is crucial. SR Automotives keeps our delivery vans running smoothly, which directly impacts our business operations.',
       rating: 5
-    }
+    },
+      
+      
+
   ];
   
   const [currentPage, setCurrentPage] = useState(0);
